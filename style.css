@@ -5,6 +5,8 @@ body{
 
 header{
     background-image: url("images/pattern.webp");
+
+
 }
 
 header h1{
@@ -18,8 +20,20 @@ header h1{
 
 main{
     padding-left: 16px;
+    max-width: 960px;
+    min-width: 480px;
+    margin: 0 auto;
 }
 
+section{
+    position: sticky;
+    top: 50px;
+    background-color: antiquewhite;
+}
+
+article:last-child{
+    margin-bottom: 100px;
+}
 
 h2{
     font-family: helvetica, Arial, sans-serif;
@@ -53,4 +67,5 @@ footer{
     text-align: center;
     background-color: khaki;
     padding: 32px 0;
+
 }
